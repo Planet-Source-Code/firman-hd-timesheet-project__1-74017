@@ -1,0 +1,136 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Firman\Read Only\PackageManual
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\vsflex8.ocx=
+C:\Program Files\Common Files\System\ado\msado26.tlb=
+C:\Firman\OCX\actskin4.ocx=
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\AutoUpdate.exe=
+C:\WINDOWS\system32\actskin4.ocx=
+C:\Firman\OCX\SB_Progress2.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\documents and settings\admin\my documents\working folder\timesheet\autoupdate.exe=
+c:\documents and settings\admin\my documents\working folder\timesheet\mod.nfo=
+c:\documents and settings\admin\my documents\working folder\timesheet\skins\de.skn=
+c:\firman\ocx\sb_progress2.ocx=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\firman\ocx\sb_progress2.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado26.tlb=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\Comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\AutoUpdate.exe=Yes
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\Mod.NFO=Yes
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\skins\DE.skn=Yes
+C:\WINDOWS\system32\actskin4.ocx=Yes
+C:\Firman\OCX\SB_Progress2.ocx=No
+C:\WINDOWS\system32\Picclp32.ocx=Yes
+C:\Firman\Read Only\Timesheet.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\Timesheet.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Firman\OCX\actskin4.ocx=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado26.tlb=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\AutoUpdate.exe=$(AppPath)
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\Mod.NFO=$(AppPath)
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\skins\DE.skn=$(AppPath)\Skins
+C:\WINDOWS\system32\actskin4.ocx=$(WinSysPath)
+C:\Firman\OCX\SB_Progress2.ocx=$(WinSysPath)
+C:\Firman\Read Only\Timesheet.exe=$(AppPath)
+C:\WINDOWS\system32\Picclp32.ocx=$(WinSysPath)
+C:\Firman\Read Only\Timesheet Manual Update.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\Timesheet.exe=No
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\AutoUpdate.exe=No
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\Mod.NFO=No
+C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet\skins\DE.skn=No
+C:\Firman\Read Only\Timesheet.exe=No
+C:\Firman\Read Only\Timesheet Manual Update.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Timesheet Version 1.2
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Firman\Read Only\PackageManual
+ProjectFolder=C:\Documents and Settings\admin\My Documents\Working Folder\TimeSheet
+ServerSideCab=
+File1=C:\Firman\Read Only\PackageManual\setup.exe
+File2=C:\Firman\Read Only\PackageManual\Setup.Lst
+File3=C:\Firman\Read Only\PackageManual\Timesheet.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Timesheet
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Timesheet]
+Icon1=Timesheet.exe
+Title1=Timesheet
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=AutoUpdate.exe
+Title2=Update
+StartIn2=$(AppPath)
+Key2=Icon3
